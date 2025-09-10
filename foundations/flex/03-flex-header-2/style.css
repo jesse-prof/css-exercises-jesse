@@ -16,7 +16,6 @@ body {
   align-items: center;
   padding: 8px;
   justify-content:flex-start
-  padding-inline-start: 0;
 }
 
 .profile-image {
@@ -34,7 +33,6 @@ body {
   font-weight: 900;
   font-style: italic;
   order: -1
-  margin-right: 0;
 }
 
 button {
@@ -57,7 +55,4 @@ ul {
   display: flex;
   gap: 16px;
   align-self:flex-start
-  padding-inline-start: 0;
-  margin-block-start: 0;
-  margin-block-end: 0;
 }
