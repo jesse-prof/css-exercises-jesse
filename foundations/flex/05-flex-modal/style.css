@@ -83,7 +83,7 @@ button.cancel {
 .header {
   display: flex;
   font-weight: bold;
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 
 .close-button {
@@ -91,5 +91,5 @@ button.cancel {
 }
 
 .text {
-  margin: 2px auto 10px auto;
+  margin: 5px auto 10px auto;
 }
