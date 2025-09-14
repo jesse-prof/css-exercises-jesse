@@ -11,14 +11,14 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
-
-  /* Changes below */
-  margin-bottom: 32px;
 }
+
+/* Changes below */
 
 .titleContainer {
   display: flex;
   justify-content: center;
+  margin-bottom: 32px;
 }
 
 .itemsContainer {
