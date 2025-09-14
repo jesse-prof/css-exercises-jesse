@@ -72,24 +72,22 @@ button.cancel {
 
 .modal {
   display: flex;
-  padding: 15px;
+  padding: 16px;
+  gap: 16px;
 }
 
 .icon {
   flex-shrink: 0;
-  margin-right: 15px;
 }
 
 .header {
   display: flex;
   font-weight: bold;
-  font-size: 1.2em;
-}
-
-.close-button {
-  margin-left: auto;
+  font-size: 1.15em;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .text {
-  margin: 5px auto 10px auto;
+  margin: 5px auto 16px auto;
 }
