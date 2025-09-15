@@ -29,13 +29,21 @@ input {
 body {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  text-align: center;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .header, .footer{
   display: flex;
   justify-content: space-between;
+  padding: 16px;
 }
 
 .footer {
@@ -48,18 +56,17 @@ body {
 }
 
 ul {
-  list-style-type: none;
+  display: flex;
+  list-style: none;
   padding: 0 10px;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
 }
-
 
 a {
   color:rgb(119, 112, 112);
   text-decoration: none;
-}
-
-.buttons {
-  padding: 10px;
 }
 
 button {

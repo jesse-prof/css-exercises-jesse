@@ -58,12 +58,13 @@ body {
 
 .sidebar {
   width: 300px;
-  flex: 1 0 auto;
+  flex: 0 0 auto;
   padding: 16px;
 }
 
 .card {
   width: 300px;
+  padding: 16px;
 }
 
 ul {
